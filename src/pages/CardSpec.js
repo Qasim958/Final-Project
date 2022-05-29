@@ -1,9 +1,13 @@
 import React from "react";
+import { useLocation } from "react-router";
 import CardSpecComponent from "../components/cardSpecDetail";
 import Estresp from "../server/establishments.json";
 
 export default function CardSpecific(props) {
-  const filterPara = props.match.params.id;
+  
+  const location = useLocation();
+  const filterPara = location.state;
+ 
 
   return (
     <>

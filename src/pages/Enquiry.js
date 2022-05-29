@@ -3,13 +3,16 @@ import FooterComponent from "../components/footer";
 import EnqForm from "../components/enqForm";
 import Header from "../components/header";
 import Estresp from "../server/establishments.json";
+import { useLocation } from "react-router";
 
 const Enquiry = (props) => {
-  const filterPara = props.match.params.id;
+  const location = useLocation();
+  const filterPara = location.state;
+  
   return (
     <>
       <main className="enqCont">
-        <div className="row">
+        <section className="row">
           {filterPara !== null ? (
             Estresp.map((data) => {
               if (filterPara === data.id) {
@@ -20,8 +23,8 @@ const Enquiry = (props) => {
           ) : (
             <h2>no post found</h2>
           )}
-        </div>
-      </main>{" "}
+        </section>
+      </main>
     </>
   );
 };

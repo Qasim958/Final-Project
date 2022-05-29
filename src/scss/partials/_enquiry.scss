@@ -1,8 +1,7 @@
-.enqCont{
-    .header{
-        background: url('../../images/night.jpg') no-repeat;  
-        background-size: cover;
-        
-    }
-    
+.enqCont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 95%;
+  margin: 30px auto;
 }
