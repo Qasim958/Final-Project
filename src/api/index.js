@@ -1,7 +1,7 @@
 // export const BASE_URL = "http://localhost:80/server/";
-export const  BASE_URL = "https://github.com/hamzakhalidbhutta/seedtotreeapi/server/";
+export const BASE_URL = "https://seedtotree.000webhostapp.com/"
 
-// export const BASE_URL =  process.env.BASE_SERVER_URL ;
+// Login
 export const LOGIN_URL = BASE_URL + "index.php";
 // Establishments
 export const ADD_ESTABLISHMENT = BASE_URL +  "add-establishment.php";
