@@ -1,0 +1,153 @@
+.accoCont {
+  .searcharea {
+    margin-top: -150px;
+  }
+  &__header {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    &__left {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      .banner {
+        width: 25%;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        &__heading {
+          h3 {
+            color: black;
+            text-align: center;
+            font-family: hoelfer text;
+            font-weight: 550;
+          }
+        }
+        &__img {
+          width: 100%;
+          height: 300px;
+          img {
+            margin: 5%;
+            width: 90%;
+            height: 90%;
+            box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 1);
+            transition: transform 0.4s all;
+          }
+          img:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+      .bb {
+        width: 5%;
+        .bar {
+          width: 5px;
+          height: 50px;
+        }
+      }
+    }
+  }
+
+  &__body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    &__main {
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .card {
+        box-shadow: 10px 9px 18px 6px rgba(128, 128, 128, 1);
+        width: 90%;
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 30px;
+        img {
+          width: 100%;
+          height: 200px;
+        }
+        h2,
+        h3 {
+          color: rgb(90, 68, 68);
+          text-align: center;
+        }
+      }
+    }
+    &__sideBar {
+      width: 25%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: column;
+      &__filter {
+        width: 60%;
+        margin: auto;
+        &__heading {
+          h3 {
+            margin-top: 30px;
+            margin-right: 10px;
+            padding: 14px;
+            background-color: #2c4a9d;
+            color: white;
+          }
+        }
+        &__body {
+          width: 80%;
+          margin: auto;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          &__cat {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            &--check {
+              margin-top: 8%;
+            }
+            &--price,
+            &--amount,
+            &--txt {
+              h3 {
+                // float: left;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .accoCont {
+    &__body {
+      width: 100%;
+
+      &__main {
+        width: 90%;
+        margin: auto;
+      }
+      &__sideBar {
+        width: 90%;
+        margin: auto;
+      }
+    }
+  }
+}

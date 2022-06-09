@@ -1,0 +1,49 @@
+.AdminNavi {
+  width: 90%;
+  margin: auto;
+  background: #2c4a9d;
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin: 20px auto;
+      }
+      button {
+        width: 100%;
+        margin: 10px auto;
+        background: #576fb390;
+        color: #ffffff;
+        &:hover {
+          background: #ffffff;
+
+        }
+      }
+      h3 {
+        text-align: center;
+        padding: 10px;
+        margin: 10px auto;
+        color: #ffffff;
+    
+      }
+      h4 {
+        text-align: center;
+        padding: 8px;
+        padding-top: 12px;
+        &:hover {
+          color: #000000;
+        }
+      }
+    }
+  }
+}

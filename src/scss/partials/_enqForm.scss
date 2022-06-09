@@ -1,0 +1,56 @@
+.enqForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  background-color: white;
+  flex-direction: column;
+  margin-top: 5%;
+  box-shadow: 11px 10px 31px 9px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5%;
+  padding: 10px;
+  h2 {
+    color: black;
+    font-weight: 550;
+    text-align: center;
+  }
+  input {
+    margin-left: 10%;
+    width: 80%;
+    height: 30px;
+  }
+  label {
+    text-align: left;
+  }
+  &__estab,
+  &__name,
+  &__email,
+  &__checkIn,
+  &__checkOut,
+  &__people,
+  &__note {
+    margin-top: 5%;
+  }
+  &__submit {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      width: 150px;
+      height: 40px;
+      border-radius: 50px;
+      color: white;
+      background-color: #4259ee;
+      border: none;
+      margin: auto;
+    }
+  }
+}
+@media only screen and (max-width: 500px) {
+  .enqForm {
+    h2 {
+      font-size: 24px;
+      margin-bottom: 14px;
+    }
+  }
+}

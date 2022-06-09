@@ -1,0 +1,44 @@
+.settingCont{
+    .header{
+        background: url('../../images/night.jpg') no-repeat;
+        height: 130%;
+        background-size: cover; 
+    }
+    &__settingForm{
+        background-color:white;
+        margin-top: 21%;
+        margin-bottom: 10%;
+        h2{
+            color: black;
+            font-weight: 550;
+            text-align: center;
+        }
+        input{
+            margin-left: 10%;
+            width: 100%;
+            height: 30px;   
+        }
+        &__adminName,&__password,&__nPassword,&__changePassword{
+            margin-top: 5%; 
+        }
+        &__submit{
+            button{
+                width: 100px;
+                height: 50px;
+                color: white;
+                margin-top: 10%;
+                margin-bottom: 10%;
+                background-color:rgb(90, 68, 68) ;              
+            }   
+        }
+    }
+    .error{
+        text-align: center;
+        margin-top: 10px;
+        color: red;
+        display: block;
+    }
+    .error__hide{
+        display: none;
+    }
+}
