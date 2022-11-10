@@ -1,12 +1,12 @@
 # Your project title
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://qasimnawaz-portfolio.netlify.app/images/pe2.png)
 
-A simple overview of the use/purpose of the project.
+This is a project images
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
+This project is for 'Seed To Tree' a leading Travel Bureau in the city. There aim is to satisfy costumers and give them the best prices available in the market. The front end ui is made usng HTML, CSS, Javascript and the backend is a based on strapi API which is not yet deployed on a any server. The frontend code is deployed on github and is being served to the public using Netlify
 
 You can add some bullet points if you'd like to:
 
